@@ -1,15 +1,18 @@
-/* 
- * There is no need to update the logic in this file. The main method only exists so you can see the output of your logic without running the tests
- * 
- * Please go to "SimpleStringMethods.java" to complete the lab. 
- * 
- */
+// This file is optional to edit and can be used for manual testing.
+
 public class Main {
+    
+    /**
+     * The entry point of the application.
+     * 
+     * This method creates a SimpleStringMethods object and manually tests its methods by calling them and printing out the results.
+     * 
+     * @param args - Command line arguments (not used in this application)
+     */
     public static void main(String[] args) {
         SimpleStringMethods ssm = new SimpleStringMethods();
         String str = "Revature";
 
-        //NOTE: The values below will be incorrect until you update SimpleStringMethods.java with the correct logic
         System.out.println("Given that the string value is '" + str  + "'...");
         System.out.println("The length of the string is " + ssm.getStringLength(str));
         System.out.println("The character at index 2 is " + ssm.getCharacterAtIndex(str, 2));
