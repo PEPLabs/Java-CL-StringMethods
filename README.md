@@ -1,7 +1,7 @@
 # String Methods Lab
 
 ## Pre-Requisites
-- You are expected to review the `String Basics` written lecture prior to working on this lab. If you are not familiar with the concepts being explored in the lab, please make sure to review the study material first.
+You are expected to review the `String Basics` written lecture prior to working on this lab. If you are not familiar with the concepts being explored in the lab, please make sure to review the study material first.
 
 ## Description
 In this exercise, you will practice performing a few basic String operations.
