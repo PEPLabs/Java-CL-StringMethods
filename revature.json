@@ -1,0 +1,35 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SimpleStringMethodsTest.java",
+      "testCases": [
+        {
+          "methodName": "lengthTest",
+          "label": "Verify string length is returned correctly",
+          "description": "Checks that getStringLength(\"aaa\") returns 3."
+        },
+        {
+          "methodName": "charAtTest1",
+          "label": "Verify character retrieval at index 2",
+          "description": "Checks that getCharacterAtIndex(\"abcdef\", 2) returns 'c'."
+        },
+        {
+          "methodName": "charAtTest2",
+          "label": "Verify character retrieval at index 0",
+          "description": "Checks that getCharacterAtIndex(\"abcdef\", 0) returns 'a'."
+        },
+        {
+          "methodName": "indexOfTest1",
+          "label": "Verify index of existing character",
+          "description": "Checks that getIndexGivenCharacter(\"zebra\", 'b') returns 2."
+        },
+        {
+          "methodName": "indexOfTest2",
+          "label": "Verify index of non-existing character returns −1",
+          "description": "Checks that getIndexGivenCharacter(\"banana\", 'q') returns -1."
+        }
+      ]
+    }
+  ]
+}
